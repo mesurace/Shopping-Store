@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<!-- Templates -->
+	
+	<definition name="layout.basic" template="/WEB-INF/tiles/template.jsp">
+		<put-attribute name="title" value="Shopping Store" />
+		<put-attribute name="header" value="/WEB-INF/jsp/header.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/footer.jsp" />
+	</definition>
+	
+	<!-- Pages -->	
+	
+	<definition name="site.cardForm" extends="layout.basic">
+		<put-attribute name="body" value="/WEB-INF/jsp/cardform.jsp" />
+	</definition>
+	
+	
+	
+	
+</tiles-definitions>
