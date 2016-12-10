@@ -18,9 +18,9 @@ FEATURES:
 
 TECHNOLOGIES :
 
-     •Spring Boot Framework, Spring REST Web Service, Maven
+     •Spring Boot(1.4.2.RELEASE), Spring REST Web Service, Maven
      • Hibernate, Spring Data,Spring Security, Validation, Internationalization,Scheduling ,AOP
-     • JSP, JSTL, Apache tiles
+     • JSP, JSTL, Apache tiles(3.0.4)
      • MySQL database
      • Tomcat server
      • Spring Tool Suit as an IDE
