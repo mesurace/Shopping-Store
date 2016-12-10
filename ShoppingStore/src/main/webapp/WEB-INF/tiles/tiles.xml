@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<!-- Templates -->
+	
+	<definition name="layout.basic" template="/WEB-INF/tiles/template.jsp">
+		<put-attribute name="title" value="Shopping Store" />
+		<put-attribute name="header" value="/WEB-INF/jsp/header.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/footer.jsp" />
+	</definition>
+	
+	<definition name="layout.basic2" template="/WEB-INF/tiles/template.jsp">
+		<put-attribute name="title" value="Shopping Store" />
+		<put-attribute name="header" value="/WEB-INF/jsp/header2.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/footer.jsp" />
+	</definition>
+	
+	<!-- Pages -->	
+	
+	<definition name="site.homepage" extends="layout.basic2">
+		<put-attribute name="body" value="/WEB-INF/jsp/home.jsp" />
+	</definition>
+	
+	<definition name="site.homepage2" extends="layout.basic">
+		<put-attribute name="body" value="/WEB-INF/jsp/home.jsp" />
+	</definition>
+	
+	<definition name="site.products" extends="layout.basic">
+		<put-attribute name="body" value="/WEB-INF/jsp/productList.jsp" />
+	</definition>
+	
+	<definition name="site.cart" extends="layout.basic2">
+		<put-attribute name="body" value="/WEB-INF/jsp/cartList.jsp" />
+	</definition>
+	
+	<definition name="site.category" extends="layout.basic2">
+		<put-attribute name="body" value="/WEB-INF/jsp/list-categorys2.jsp" />
+	</definition>
+	
+	<definition name="site.brand" extends="layout.basic2">
+		<put-attribute name="body" value="/WEB-INF/jsp/list-brands2.jsp" />
+	</definition>
+	
+	<!-- sameer -->
+	
+	<definition name="list-brands" extends="layout.basic">
+		<put-attribute name="body" value="/WEB-INF/jsp/list-brands.jsp" />
+	</definition>
+	
+	
+	<definition name="brand-form" extends="layout.basic">
+		<put-attribute name="body" value="/WEB-INF/jsp/brand-form.jsp" />
+	</definition>
+	
+	
+	<definition name="list-categorys" extends="layout.basic">
+		<put-attribute name="body" value="/WEB-INF/jsp/list-categorys.jsp" />
+	</definition>
+	
+	
+	<definition name="category-form" extends="layout.basic">
+		<put-attribute name="body" value="/WEB-INF/jsp/category-form.jsp" />
+	</definition>
+	
+
+	<definition name="list-products" extends="layout.basic">
+		<put-attribute name="body" value="/WEB-INF/jsp/list-products.jsp" />
+	</definition>
+	
+	
+	<definition name="product-form" extends="layout.basic">
+		<put-attribute name="body" value="/WEB-INF/jsp/product-form.jsp" />
+	</definition>
+	
+	<definition name="site-cart" extends="layout.basic">
+		<put-attribute name="body" value="/WEB-INF/jsp/NewFile.jsp" />
+	</definition>
+	
+	<definition name="site.cardForm" extends="layout.basic2">
+		<put-attribute name="body" value="/WEB-INF/jsp/cardform.jsp" />
+	</definition>
+	
+	
+	<definition name="site:error" extends="layout.basic">
+		<put-attribute name="body" value="/WEB-INF/jsp/error.jsp" />
+	</definition>
+	
+</tiles-definitions>
