@@ -1,9 +1,5 @@
 # Online Shopping Store
 
-PROJECT TITLE: Shopping Store
-
-PROJECT DESCRIPTION:
-
 It is a web application for online shopping with multiple product categories.
 
 FEATURES:
@@ -25,4 +21,3 @@ TECHNOLOGIES :
      • Tomcat server
      • Spring Tool Suit as an IDE
 
-Note: Web application and web service are seprate projects and they were tested by running two projects in two different ports in the same server. 
